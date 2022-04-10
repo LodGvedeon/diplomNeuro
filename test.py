@@ -10,3 +10,4 @@ data = pd.DataFrame(data = data_raw)
 first_ten = data.head(10)
 t = data.iloc[0]
 print(t)
+# seems like nothing new appeared
