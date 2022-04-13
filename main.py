@@ -11,7 +11,7 @@ maxlen = 32
 
 (x_train, y_train), (_, _) = imdb.load_data(num_words=max_words)
 
-print(x_train[:2])
+print(x_train[:1])
 
 x_train = sequence.pad_sequences(x_train, maxlen=maxlen)
 
